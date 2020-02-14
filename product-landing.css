@@ -1,0 +1,124 @@
+html{
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    background-color: #E0FFFD;
+}
+#header{
+    font-size: 16px;
+    text-align: left;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 150px 300px 1fr;
+    grid-template-rows: 90px;
+    margin-top: 0px;
+    background-color: #EEE0FF;
+}
+h1{
+    color: mediumpurple;
+    font-size: 40px;
+    text-decoration: solid;
+}
+nav > ul{
+    display: flex;
+    width: 35vw;
+    flex-direction: row;
+    justify-content: space-around;
+}
+li{
+    list-style: none;
+}
+li a:hover{
+    color: mintcream;
+}
+#header-img{
+    width: 120px;
+    height: 100%;
+    margin: 20px 50px 20px 20px;
+}
+#main{
+    margin-top: 30px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+}
+#pricing{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-evenly;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    background-color: #EEE0FF;
+    margin-top: 30px;
+    color: black;
+}
+.product-name{
+    text-decoration: solid;
+    text-decoration: underline;
+    font-size: 20px;
+    text-align: center;
+    color: mediumpurple;
+}
+#video{
+    padding: 20px;
+}
+.select{
+    height: 30px;
+    width: 150px;
+    border-radius: 8px;
+    border: none;
+    background-color: mediumpurple;
+}
+#email{
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+    border-radius: 2px;
+    border: none;
+    line-height: 1.8em;
+}
+#submit{
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+    border-radius: 2px;
+    border: none;
+    background-color: #EEE0FF;
+    color: mediumpurple;
+}
+#submit:hover{
+    color: mintcream;
+}
+.nav-link{
+    font-size: 20px;
+    text-decoration: none;
+    color: mediumpurple;
+}
+ol{
+    text-align: left;
+}
+@media (max-width: 1000px){
+    #pricing{
+        flex-direction: column;
+    } 
+}
+footer{
+    background-color: #E0FFFD;
+    color: mediumpurple;
+    display: grid;
+    grid-template-columns: 50% 25% 25%;
+    grid-template-rows: 20px;
+    align-items: center;
+    padding: 10px;
+}
+footer > ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+#footer{
+    color: mediumpurple;
+}
+span{
+    font-size: 12px;
+}
